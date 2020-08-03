@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="fa-icon-r-logo.png">
     <link rel="shortcut icon" href="fa-icon-r-logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
     <style>
+      body{
+        margin: 0px;
+      }
+      .fw-700{
+        font-weight: 700;
+      }
       .static_homepage-header{
         background-color: white;
-        height: 110px;
+        height: 100px;
         text-align: center;
       }
       .logo{
-        margin: 30px 0 0 0;
+        margin: 24px 0 0 0;
       }
       .static_homepage-body{
         background-color: #fe5f6a ;
-        height: 520px;
+        height: 515px;
         color: white;
         overflow: hidden;
       }
       .body-content{
-        margin-top: 70px;
+        margin-top: 40px;
         width: 68%;
         margin-left: 23%;
-        font-family: "source_sans_proregular";
+        font-family: 'Source Sans Pro', sans-serif;
       }
       .heading{
         font-size: 30px;
@@ -32,6 +41,7 @@
         font-size: 18px;
       }
       .img-container{
+        margin-top: -20px;
         height: 170px;
         overflow: hidden;
       }
@@ -60,14 +70,15 @@
     
       @media (max-width: 420px) {
         .static_homepage-body{
-          height: 700px;
+          height: 750px;
         }
         .body-content{
           margin-top: 30px !important;
           margin-left: 20% !important;
         }
         .heading{
-          line-height: 32px;
+          line-height: 55px;
+          font-size: 26px;
         }
         .description{
           font-size: 18px !important;
@@ -103,6 +114,9 @@
       }
     
       @media (max-width: 322px) {
+        .static_homepage-body{
+          height: 830px;
+        }
         .img-container{
           height: 70px;
         }
@@ -121,19 +135,19 @@
         font-size: 14px;
       }
     </style>
-  </head>>
+  </head>
 <body>
 
   <div id='static_homepage'>
     <div class='static_homepage-header'>
-      <a href='/' class='logo'>
-        <img src='/assets/logo-5e74b2e4c5faf8b3fbcc3936ce50d8620b771eb954035cbd1924e453384599ad.png'>
+      <a href='#'>
+        <img class='logo' src='logo.png'>
       </a>
     </div>
     <div class='static_homepage-body'>
       <div class='body-content'>
         <div class='heading'>
-          <h1>Empowering Small Businesses</h1>
+          <h1 class='fw-700'>Empowering Small Businesses</h1>
         </div>
         <br class='line-break'>
         <div class='description'>
