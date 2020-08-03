@@ -1,10 +1,170 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="apple-touch-icon" href="fa-icon-r-logo.png">
+    <link rel="shortcut icon" href="fa-icon-r-logo.png">
+    <style>
+      .static_homepage-header{
+        background-color: white;
+        height: 110px;
+        text-align: center;
+      }
+      .logo{
+        margin: 30px 0 0 0;
+      }
+      .static_homepage-body{
+        background-color: #fe5f6a ;
+        height: 520px;
+        color: white;
+        overflow: hidden;
+      }
+      .body-content{
+        margin-top: 70px;
+        width: 68%;
+        margin-left: 23%;
+        font-family: "source_sans_proregular";
+      }
+      .heading{
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .description{
+        font-size: 18px;
+      }
+      .img-container{
+        height: 170px;
+        overflow: hidden;
+      }
+      .device-img{
+        position: relative;
+      }
+      .tab-img{
+        position: absolute;
+        width: 695px;
+        left: 0px;
+        top: 60px;
+      }
+      .phone-img{
+          top: 3px;
+          left: 387px;
+          position: absolute;
+          width: 308px;
+      }
+      .copy-rights{
+        padding-top: 15px;
+        padding-left: 20px;
+        background-color: white;
+        color: black;
+        font-size: 14px;
+      }
+    
+      @media (max-width: 420px) {
+        .static_homepage-body{
+          height: 700px;
+        }
+        .body-content{
+          margin-top: 30px !important;
+          margin-left: 20% !important;
+        }
+        .heading{
+          line-height: 32px;
+        }
+        .description{
+          font-size: 18px !important;
+        }
+        .p1{
+          margin-top: 10px;
+        }
+        .p2{
+          margin-top: 10px;
+        }
+        .img-container{
+          height: 70px;
+        }
+        .tab-img {
+          width: 240px;
+          left: 0;
+          top: 32px;
+        }
+        .phone-img{
+          top: 5px;
+          left: 120px;
+          width: 120px;
+        }
+        .static_homepage-header{
+          height: 75px;
+        }
+        .logo{
+          margin: 20px 0 0 0;
+        }
+        .copy-rights{
+          padding: 8px 20px 5px 12px;
+        }
+      }
+    
+      @media (max-width: 322px) {
+        .img-container{
+          height: 70px;
+        }
+        .tab-img {
+          width: 210px;
+          left: 0;
+          top: 35px;
+        }
+        .phone-img{
+          top: 13px;
+          left: 105px;
+          width: 105px;
+        }
+      }
+      .fs-14{
+        font-size: 14px;
+      }
+    </style>
+  </head>>
 <body>
 
-<h1>My First Heading</h1>
-
-<p>My first paragraph.</p>
-
+  <div id='static_homepage'>
+    <div class='static_homepage-header'>
+      <a href='/' class='logo'>
+        <img src='/assets/logo-5e74b2e4c5faf8b3fbcc3936ce50d8620b771eb954035cbd1924e453384599ad.png'>
+      </a>
+    </div>
+    <div class='static_homepage-body'>
+      <div class='body-content'>
+        <div class='heading'>
+          <h1>Empowering Small Businesses</h1>
+        </div>
+        <br class='line-break'>
+        <div class='description'>
+          <p class='p1'>
+          Small businesses have the most hard-working people in the world. 
+          They are deeply invested in the success of the business. 
+          They engage with passion and thrive on collaboration.
+          </p>
+          <p class='p2'>
+            Whether you are franchised or independent, 
+            one employee or a couple hundred, 
+            xquic provides actionable insights to make small business operations more successful 
+            through the power of community.
+          </p>  
+          <br class='line-break'>
+          <p class='p1 fs-14'>Coming soon...</p>
+        </div>
+        <div class='img-container'>
+        <div class='device-img'>
+          <img class='tab-img' src='/assets/template/desktop-img-58332e75d53dd33e7a8384674b4992260da725b3a38c059f131b64a7427b0940.png'>
+          <img class='phone-img' src='/assets/template/mobile-img-d700334d47f8f3bde0dc7876f1baef18ed756ea39eff6eefeef5ef4c0fbdf029.png'>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class='copy-rights'>
+      <p>
+        Copyright © 2020 xquic.com&nbsp;|&nbsp;All rights reserved.
+      </p>
+    </div>
+  </div>
+  
 </body>
 </html>
